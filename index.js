@@ -8,7 +8,6 @@ object[key] = value
 }
 function deleteFromObjectByKey(object,key){
   var newobj = Object.assign({},object)
- delete object.key
- delete newobj.key
+ delete newobj[key]
  return object
 }
