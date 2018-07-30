@@ -3,4 +3,3 @@ var recipes = {key: 'value'}
   Object.assign({},object,{[key]: value})
 return recipes
 }
-function 
